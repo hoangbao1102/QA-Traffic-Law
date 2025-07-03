@@ -40,7 +40,7 @@ uvicorn main:app --reload
 
 Truy cập [http://localhost:8000](http://localhost:8000) để sử dụng giao diện.
 
-![Giao diện](static/demo.jpg)
+![Giao diện](static/readme/demo.jpg)
 
 ## 🖼️ Nhận diện & mô tả ảnh giao thông
 
