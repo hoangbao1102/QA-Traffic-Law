@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hệ thống hỗ trợ An toàn giao thông</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-size: 18px;
+        }
+        .chat-container {
+            scroll-behavior: smooth;
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+        .message {
+            max-width: 70%;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            word-wrap: break-word;
+        }
+        .user {
+            background-color: #3b82f6;
+            color: white;
+            margin-left: auto;
+        }
+        .bot {
+            background-color: #e5e7eb;
+            color: black;
+        }
+        #imagePreview img {
+            max-width: 100%;
+            max-height: 300px;
+            object-fit: contain;
+            margin: 10px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-4 max-w-6xl">
+        <!-- Thêm vào vị trí phù hợp trên giao diện, ví dụ trên cùng hoặc trong menu -->
+        <div class="mb-4 flex justify-end">
+            <button onclick="window.location.href='/graph'"
+                class="bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700">
+                Hiện đồ thị tri thức
+            </button>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+            <!-- Caption Section -->
+            <div class="bg-white rounded-lg shadow p-4">
+                <h2 class="text-xl font-bold mb-4 text-gray-800">🖼️ Mô tả hình ảnh</h2>
+                <form id="captionForm" class="flex flex-col gap-2">
+                    <input type="file" name="image" accept="image/*" class="p-2 border rounded">
+                    <div id="imagePreview" class="mt-4">
+                        <!-- Image preview will be shown here -->
+                    </div>
+                    <div class="flex gap-2">
+                        <button type="submit" class="flex-1 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
+                            Tạo mô tả
+                        </button>
+                        <button type="button" onclick="clearCaption()" class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">
+                            Xóa mô tả
+                        </button>
+                    </div>
+                </form>
+                <div class="mt-4 p-4 bg-gray-50 rounded-lg">
+                    <h3 class="font-medium mb-2">Kết quả mô tả:</h3>
+                    <p id="captionText" class="text-gray-700"></p>
+                </div>
+            </div>
+
+            <!-- Chat Section -->
+            <div>
+                <h2 class="text-xl font-bold mb-4 text-gray-800">🤖 Hỏi đáp</h2>
+                <div class="chat-container bg-white rounded-lg shadow p-4 mb-4">
+                    <div id="chatMessages"></div>
+                </div>
+                <!-- Sửa lại form chat -->
+                <form id="queryForm" method="post" enctype="multipart/form-data" class="flex flex-col gap-2">
+                    <div class="flex gap-2">
+                        <input type="text" name="message" id="userQuestion" 
+                               placeholder="Nhập câu hỏi..."
+                               class="flex-grow p-2 border rounded-lg">
+                        <input type="hidden" name="context" id="contextInput">
+                    </div>
+                    <div class="flex gap-2">
+                        <button type="submit" name="action" value="chat" 
+                                class="flex-1 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+                            Gửi câu hỏi
+                        </button>
+                        <button type="button" onclick="clearChat()" 
+                                class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">
+                            Xóa lịch sử
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Query mode selection -->
+                <div class="mb-4">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Chế độ hỏi đáp:</label>
+                    <div class="flex gap-4">
+                        <label class="flex items-center">
+                            <input type="radio" name="queryMode" value="global" checked 
+                                   class="form-radio text-blue-600">
+                            <span class="ml-2">Global</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="radio" name="queryMode" value="local" 
+                                   class="form-radio text-green-600">
+                            <span class="ml-2">Local</span>
+                        </label>
+                        <!-- <label class="flex items-center">
+                            <input type="radio" name="queryMode" value="naive_rag" 
+                                   class="form-radio text-green-600">
+                            <span class="ml-2">Naive RAG</span>
+                        </label> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Image preview
+        document.querySelector('input[type="file"]').addEventListener('change', function(e) {
+            const preview = document.getElementById('imagePreview');
+            const file = e.target.files[0];
+            
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    preview.innerHTML = `
+                        <div class="flex justify-center">
+                            <img src="${e.target.result}" alt="Preview" class="rounded-lg shadow-lg">
+                        </div>`;
+                }
+                reader.readAsDataURL(file);
+            } else {
+                preview.innerHTML = '';
+            }
+        });
+        
+        // Caption form submission
+        document.getElementById('captionForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const fileInput = this.querySelector('input[type="file"]');
+            
+            if (!fileInput.files || fileInput.files.length === 0) {
+                alert('Vui lòng chọn một hình ảnh trước khi tạo mô tả');
+                return;
+            }
+
+            const formData = new FormData(this);
+            try {
+                const response = await fetch('/caption', {
+                    method: 'POST',
+                    body: formData
+                });
+                const result = await response.json();
+                
+                if (result.error) {
+                    alert(result.error);
+                    return;
+                }
+                
+                document.getElementById('captionText').textContent = result.caption;
+
+                // Cập nhật lại ảnh preview bằng ảnh đã xử lý từ backend
+                if(result.image_path){
+                    // Nếu image_path trả về là "static/uploads/xxx.jpg" thì cần bỏ "static/" khi truy cập qua /static
+                    let imgSrc = result.image_path.startsWith("static/") ? result.image_path.replace("static/", "/static/") : result.image_path;
+                    document.getElementById('imagePreview').innerHTML = `
+                        <div class="flex justify-center">
+                            <img src="${imgSrc}" alt="Kết quả nhận diện" class="rounded-lg shadow-lg">
+                        </div>`;
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Có lỗi xảy ra khi xử lý hình ảnh. Vui lòng thử lại.');
+            }
+        });
+
+        // Query form submission
+        document.getElementById('queryForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const context = document.getElementById('captionText')?.textContent || '';
+            const userQuestion = document.getElementById('userQuestion').value;
+            const inputField = document.getElementById('userQuestion');
+            const queryMode = document.querySelector('input[name="queryMode"]:checked').value;
+            
+            if (!userQuestion.trim()) {
+                alert('Vui lòng nhập câu hỏi');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('message', userQuestion);
+            formData.append('context', context);
+            formData.append('action', 'chat');
+            formData.append('mode', queryMode);  // Add the selected mode
+
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (response.redirected) {
+                    window.location.href = response.url;
+                } else {
+                    const result = await response.json();
+                    addMessage('user', userQuestion);
+                    addMessage('bot', result.response);
+                    inputField.value = '';
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                addMessage('bot', 'Có lỗi xảy ra, vui lòng thử lại.');
+            }
+        });
+
+        function addMessage(sender, content) {
+            const messages = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            messageDiv.innerHTML = `
+                <div class="font-semibold">${sender === 'user' ? 'Bạn' : 'Bot'}</div>
+                <div>${content}</div>
+            `;
+            messages.appendChild(messageDiv);
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function clearChat() {
+            if (confirm('Bạn có chắc muốn xóa toàn bộ lịch sử chat?')) {
+                document.getElementById('chatMessages').innerHTML = '';
+            }
+        }
+
+        function clearCaption() {
+            if (confirm('Bạn có chắc muốn xóa mô tả và hình ảnh?')) {
+                // Clear caption text
+                document.getElementById('captionText').textContent = '';
+                
+                // Clear image preview
+                document.getElementById('imagePreview').innerHTML = '';
+                
+                // Reset file input
+                const fileInput = document.querySelector('input[type="file"]');
+                fileInput.value = '';
+            }
+        }
+    </script>
+</body>
+</html>

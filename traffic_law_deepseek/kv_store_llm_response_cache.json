@@ -1,0 +1,198 @@
+{
+  "1fe459f4f614747814c36b2b57ec0f1d": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The greeting 'xin chào' is a common Vietnamese greeting used to say hello.\", \"score\": 50}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "0a2578bc123952fb6a02a50c3347786e": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The input data tables do not contain sufficient information to provide an answer to the greeting 'xin chào'.\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "4b1a6860773f3355be7eb048c278db42": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The greeting 'xin chào' is a common Vietnamese greeting used to say hello.\", \"score\": 50}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "133de7535b1b3cdcb2fe20652f5c07d8": {
+    "return": "The phrase **\"xin chào\"** is a fundamental greeting in the Vietnamese language, commonly used to say **\"hello\"** in both formal and informal contexts.  \n\n### Usage and Context  \n- It is a polite and versatile greeting suitable for various social interactions.  \n- The term combines **\"xin\"** (a polite particle expressing respect) with **\"chào\"** (to greet), making it appropriate for addressing strangers, elders, or peers.  \n\n### Cultural Significance  \nAs a standard greeting, **\"xin chào\"** reflects Vietnamese cultural norms of politeness and respect in communication. It may be used alone or followed by honorifics (e.g., **\"xin chào ông/bà\"** for sir/madam).  \n\nWould you like additional details on pronunciation or regional variations?",
+    "model": "deepseek-chat"
+  },
+  "444a392845d25d6a4f3338a4fdf4c0d6": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Không có thông tin cụ thể về 'tín hiệu còi' trong các bảng dữ liệu được cung cấp. Do đó, không thể đưa ra câu trả lời chính xác.\",\n            \"score\": 0\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "7283b8a8153a144c964ee7f77955cba3": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Tín Hiệu Còi refers to the use of vehicle horns, which is regulated in certain areas like Khu Đông Dân Cư (densely populated areas) to minimize noise pollution and ensure a peaceful environment for residents, especially during nighttime.\",\n            \"score\": 80\n        },\n        {\n            \"description\": \"The regulation of Tín Hiệu Còi underscores the community's efforts to balance safety measures with quality of life considerations, highlighting the importance of adhering to traffic rules for the well-being of both drivers and residents.\",\n            \"score\": 70\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "8898a3f08f41ee68a962d96a74f4cb9e": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Tín hiệu còi (vehicle horns) are used as a technological aid to enhance road safety by alerting other road users of a vehicle's presence or to warn of potential dangers. Their usage is regulated to ensure they serve their purpose without causing disturbances, especially in densely populated areas.\",\n            \"score\": 80\n        },\n        {\n            \"description\": \"In densely populated areas (Khu Đông Dân Cư), specific traffic rules regarding the use of tín hiệu còi are in place to minimize disturbances and ensure safety in areas with high pedestrian and vehicle traffic.\",\n            \"score\": 70\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "05e1e5fe0d9b583be94f69fa24845a3d": {
+    "return": "# Tín Hiệu Còi (Vehicle Horns)  \n\nTín hiệu còi (vehicle horns) là một công cụ công nghệ được sử dụng trong giao thông nhằm nâng cao an toàn đường bộ. Chúng có chức năng cảnh báo người tham gia giao thông khác về sự hiện diện của phương tiện hoặc nguy cơ tiềm ẩn, giúp giảm thiểu tai nạn.  \n\n## Quy Định và Mục Đích  \n\nViệc sử dụng tín hiệu còi được quy định chặt chẽ, đặc biệt tại các **khu đông dân cư** (densely populated areas). Các quy tắc này nhằm:  \n- **Đảm bảo an toàn** trong khu vực có mật độ giao thông cao.  \n- **Giảm ô nhiễm tiếng ồn**, đặc biệt vào ban đêm, để duy trì môi trường yên tĩnh cho cư dân.  \n\n## Cân Bằng Giữa An Toàn và Chất Lượng Cuộc Sống  \n\nQuy định về tín hiệu còi phản ánh nỗ lực của cộng đồng trong việc cân bằng giữa biện pháp an toàn và chất lượng cuộc sống. Người tham gia giao thông cần tuân thủ các quy tắc này để đảm bảo sự an toàn chung cũng như sự thoải mái của người dân sinh sống trong khu vực.",
+    "model": "deepseek-chat"
+  },
+  "a57331c251cf86670be02696d3a6236b": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The data tables provided do not contain specific information about 'Tín hiệu còi trong giao thông' (horn signals in traffic). Therefore, I cannot provide a detailed response based on the given data.\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "e3b6130842f9cf3bf80a8fa84d190ca3": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Tín hiệu còi (vehicle horns) are regulated for use in traffic to enhance road safety. Their usage is controlled to ensure they serve their purpose without causing disturbances, especially in densely populated areas.\",\n            \"score\": 75\n        },\n        {\n            \"description\": \"In densely populated areas (Khu Đông Dân Cư), specific traffic rules regarding the use of Tín hiệu còi are in place to minimize disturbances and ensure safety in areas with high pedestrian and vehicle traffic.\",\n            \"score\": 65\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "b2269ecf629aadd55dea26effffb0c3d": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Tín Hiệu Còi (vehicle horns) usage is restricted in Khu Đông Dân Cư (densely populated areas), especially during nighttime, to minimize noise pollution and ensure a peaceful environment for residents.\",\n            \"score\": 80\n        },\n        {\n            \"description\": \"The regulations on Tín Hiệu Còi highlight the community's efforts to balance safety measures with quality of life considerations in densely populated areas.\",\n            \"score\": 70\n        },\n        {\n            \"description\": \"Drivers are required to adhere to specific horn usage rules when in Khu Đông Dân Cư, emphasizing the community's commitment to safety and harmony.\",\n            \"score\": 60\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "464ef57caed1205e2c375ed4b7cb7d23": {
+    "return": "### Regulations on Vehicle Horns (Tín Hiệu Còi) in Traffic  \n\nVehicle horns (Tín Hiệu Còi) are regulated technologies designed to enhance road safety by alerting pedestrians and other drivers. However, their usage is strictly controlled, particularly in **densely populated areas (Khu Đông Dân Cư)**, to balance safety needs with noise pollution concerns.  \n\n#### Key Restrictions:  \n- **Nighttime Restrictions**: Horn usage is limited during nighttime to ensure a peaceful environment for residents.  \n- **Densely Populated Areas**: Specific rules are enforced in high-traffic zones to minimize disturbances while maintaining safety.  \n\n#### Purpose and Community Impact:  \nThe regulations reflect a broader effort to harmonize **safety measures** with **quality of life considerations**. Drivers are required to follow these rules, emphasizing the community's commitment to reducing unnecessary noise while preserving the functional role of horns in preventing accidents.  \n\nThese measures highlight the importance of responsible horn usage in urban planning and traffic management.",
+    "model": "deepseek-chat"
+  },
+  "dd40cad9470f1afd8e9173b9e6326156": {
+    "return": "### Regulations on Vehicle Horns (Tín Hiệu Còi) in Traffic  \n\nVehicle horns (Tín Hiệu Còi) are regulated to serve two primary purposes: **enhancing road safety** and **minimizing disturbances**, particularly in densely populated areas (Khu Đông Dân Cư).  \n\n#### Safety and Noise Control  \n- Horns are permitted for **traffic safety**, ensuring drivers can alert others to potential hazards.  \n- However, their use is **restricted in densely populated zones**, especially during nighttime, to **reduce noise pollution** and maintain a peaceful environment for residents.  \n\n#### Community and Enforcement  \n- Specific rules govern horn usage in high-traffic areas, balancing **safety needs** with **quality of life** considerations.  \n- Drivers **shall adhere to these regulations**, reflecting the community's commitment to **harmonious urban living**.  \n\nThese measures highlight an effort to **prioritize safety** while mitigating unnecessary noise in residential zones.",
+    "model": "deepseek-chat"
+  },
+  "dba91e5fc7ac4d55a596b53269a726ac": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The input data tables do not contain sufficient information to determine if there are any violations or not.\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "ecc5ac3b23b77e76b72d722081656084": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The provided data tables do not contain specific information about any violations or wrongdoings ('sai phạm').\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "77cacd6c167e0fc839f24235b33d9db9": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The provided data tables do not contain specific information about any violations or misconducts ('sai phạm'). Therefore, it is not possible to determine if there are any violations based on the given context.\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "5f2cec9c3df197a38547d44ffdf046d2": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The input data tables do not contain sufficient information to determine if there are any violations or not.\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "3f7ca4e32cd9e7dd75395e8a53c6746b": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The provided data tables do not contain specific information about violations or infractions ('sai phạm') within the context of Vietnamese traffic management or regulations.\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "de91cf3a7e86b989330f6ed96e0b9cf2": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The input data tables do not contain sufficient information to determine if there are any violations or errors.\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "c2c26254ef74a79029e0ac79ab6d04ac": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"Không có đủ thông tin được cung cấp để xác định có sai phạm gì trong trường hợp này.\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "50733939a1bc8c0c21a14b478c2a8f13": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"The input data tables do not provide specific information about any violations or infractions in this case.\",\n            \"score\": 0\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "44c6e1b5ba806fd099ff0210816168a8": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"The provided data tables do not contain specific information about any violations or infractions in a given case. Therefore, it is not possible to determine what, if any, violations may have occurred.\",\n            \"score\": 0\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "1917d16f4f6158d7bb5db4b71bd5d4b3": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"The motorcycle is carrying four people, which exceeds the standard passenger capacity for motorcycles in Vietnam, typically allowing only the driver and one passenger.\",\n            \"score\": 90\n        },\n        {\n            \"description\": \"Three passengers are not wearing helmets, which violates Vietnam's traffic laws requiring all motorcycle riders and passengers to wear helmets.\",\n            \"score\": 100\n        },\n        {\n            \"description\": \"The motorcycle is moving on the road or sidewalk, but without specific context on the legality of the path taken, it's unclear if this constitutes a violation. However, motorcycles are generally required to stay on the road and not the sidewalk.\",\n            \"score\": 70\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "589f40f2a8739391fc28488c0012cba5": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"The motorcycle is carrying four people, which exceeds the standard passenger limit for motorcycles in many jurisdictions, including Vietnam, where typically only two people are allowed (one driver and one passenger).\",\n            \"score\": 90\n        },\n        {\n            \"description\": \"Three passengers on the motorcycle are not wearing helmets, which violates traffic safety regulations that require all motorcycle riders and passengers to wear helmets.\",\n            \"score\": 100\n        },\n        {\n            \"description\": \"The driver is wearing a helmet, which complies with the helmet requirement for motorcycle operators.\",\n            \"score\": 10\n        },\n        {\n            \"description\": \"The motorcycle is moving on the road or sidewalk, but without additional context on local traffic laws, it's unclear if this specific action is a violation. However, riding on sidewalks is generally prohibited in many areas.\",\n            \"score\": 50\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "117af48a91f8644639ea25bdff068eb5": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"The motorcycle is carrying four people, which exceeds the typical passenger limit for motorcycles in many jurisdictions, including Vietnam, where the standard is usually one driver and one passenger.\",\n            \"score\": 90\n        },\n        {\n            \"description\": \"Three passengers on the motorcycle are not wearing helmets, which violates traffic safety regulations in Vietnam that require all motorcycle riders and passengers to wear helmets.\",\n            \"score\": 100\n        },\n        {\n            \"description\": \"The driver is wearing a helmet, which complies with the helmet law for motorcycle operators.\",\n            \"score\": 50\n        },\n        {\n            \"description\": \"The motorcycle is moving on the road or sidewalk, but without specific context on local traffic laws regarding motorcycle movement on sidewalks, this may or may not be a violation.\",\n            \"score\": 60\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "afbca1f693c6e350bf61a4269f337796": {
+    "return": "Dựa trên thông tin được cung cấp, có hai vi phạm chính về luật giao thông tại Việt Nam liên quan đến chiếc xe máy màu đỏ được mô tả:\n\n### 1. Vi phạm quy định về đội mũ bảo hiểm  \n- **Ba hành khách** ngồi sau không đội mũ bảo hiểm, vi phạm **Điều 30 Luật Giao thông đường bộ Việt Nam**, yêu cầu tất cả người điều khiển và người ngồi trên xe máy phải đội mũ bảo hiểm đạt chuẩn.  \n- Người lái xe tuân thủ quy định này (có đội mũ), nhưng việc chở ba người không đội mũ vẫn bị coi là vi phạm.  \n\n### 2. Vượt quá số người cho phép trên xe máy  \n- Xe chở **bốn người** (1 lái + 3 hành khách), trong khi quy định chung chỉ cho phép tối đa **hai người** (1 lái + 1 hành khách). Đây là vi phạm về tải trọng người theo quy định an toàn giao thông.  \n\n### 3. Di chuyển trên lề đường (nếu xác nhận)  \n- Thông tin không rõ xe đang di chuyển trên đường hay lề đường. Nếu xe đi trên lề đường, đây có thể là vi phạm vì xe máy thường không được phép lưu thông trên lề đường dành cho người đi bộ. Tuy nhiên, cần thêm bằng chứng cụ thể để kết luận.  \n\n**Kết luận**: Xe máy này có ít nhất hai vi phạm rõ ràng (không đội mũ bảo hiểm với hành khách và chở quá số người quy định). Vi phạm tiềm ẩn thứ ba (đi trên lề đường) cần kiểm tra thêm để xác nhận.",
+    "model": "deepseek-chat"
+  },
+  "81ed86cc4a8e073c682428165e48cde2": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Không có thông tin cụ thể về vi phạm giao thông trong bức ảnh được mô tả. Các biển báo giao thông được phát hiện bao gồm 'Biển P.102: Cấm đi ngược chiều' và 'Biển R.302a: Vòng sang phải tránh chướng ngại vật', nhưng không có dữ liệu nào chỉ ra rằng có phương tiện nào vi phạm các quy định này.\",\n            \"score\": 0\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "8924fd5ab95ceb2fce3b84aab2995f68": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"The image shows a 'Biển P.102: Cấm đi ngược chiều' sign, which prohibits vehicles from going in the opposite direction. Given the crowded urban traffic scene described, if any vehicle is observed going against the direction indicated by this sign, it would constitute a violation.\",\n            \"score\": 80\n        },\n        {\n            \"description\": \"The presence of a 'Biển R.302a: Vòng sang phải tránh chướng ngại vật' sign suggests that vehicles should turn right to avoid an obstacle. Any vehicle not adhering to this directive in the described scenario would be in violation of traffic rules.\",\n            \"score\": 70\n        },\n        {\n            \"description\": \"The description does not explicitly mention any vehicles violating the traffic signs present in the image. Therefore, without direct observation of such violations, it's not possible to confirm any specific infractions based solely on the provided context.\",\n            \"score\": 60\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "f9e81672135c09cb10f248acff7e9305": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"Không có thông tin cụ thể về các hành vi vi phạm giao thông trong bức ảnh được mô tả. Các biển báo giao thông được phát hiện chỉ ra các quy định giao thông như cấm đi ngược chiều và hướng đi vòng sang phải tránh chướng ngại vật, nhưng không có bằng chứng về việc các phương tiện có đang vi phạm các quy định này hay không.\", \"score\": 50},\n        {\"description\": \"Mặc dù bức ảnh mô tả cảnh giao thông đông đúc với nhiều loại phương tiện, nhưng không có dữ liệu nào cho thấy có phương tiện nào đang đi ngược chiều hoặc không tuân thủ biển báo hướng đi vòng sang phải tránh chướng ngại vật.\", \"score\": 30}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "fb91801ba2485bf893c87ac64dc1a1f1": {
+    "return": "Dựa trên các báo cáo từ các chuyên gia phân tích, chúng tôi có thể đưa ra câu trả lời như sau:\n\n### **Phân tích các biển báo giao thông**\n1. **Biển P.102: Cấm đi ngược chiều**  \n   - Biển báo này có độ tin cậy phát hiện cao (0.90), chỉ ra rằng các phương tiện không được phép đi ngược chiều so với hướng quy định.  \n   - Tuy nhiên, không có bằng chứng trực tiếp nào từ mô tả cho thấy có phương tiện nào đang vi phạm quy định này.\n\n2. **Biển R.302a: Vòng sang phải tránh chướng ngại vật**  \n   - Biển này (độ tin cậy 0.89) yêu cầu các phương tiện phải rẽ phải để tránh chướng ngại vật.  \n   - Tương tự, không có mô tả nào về việc các phương tiện không tuân thủ hướng dẫn này.\n\n### **Kết luận về vi phạm giao thông**\n- **Không có bằng chứng cụ thể** về vi phạm giao thông trong bức ảnh được mô tả.  \n- Các biển báo hiện diện rõ ràng (**P.102** và **R.302a**) chỉ quy định hướng đi, nhưng không có phương tiện nào được quan sát thấy đang đi ngược chiều hoặc bỏ qua hướng dẫn rẽ phải.  \n- Mặc dù cảnh giao thông đông đúc với nhiều loại xe, việc thiếu thông tin trực tiếp về hành vi vi phạm khiến chúng tôi **không thể xác nhận** bất kỳ sai phạm nào.  \n\nNếu có thêm dữ liệu hình ảnh hoặc video ghi lại hành vi cụ thể của phương tiện, việc đánh giá sẽ chính xác hơn.",
+    "model": "deepseek-chat"
+  },
+  "1002be4390f417ec30b732053ebc2e3e": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The provided data tables do not contain any information or context about an image or any specific violations related to it.\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "f796660725f06d21a140a6b0540a15a2": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The provided data tables do not contain any information about images or visual content, so it is not possible to determine if there are any violations in an image.\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "8dcfdff2254696405479e693d376e4df": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"Không có thông tin cụ thể về hình ảnh hoặc sai phạm trong các bảng dữ liệu được cung cấp.\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "11f28e6b8e3fe7a9f5931a2827ee4243": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Tín Hiệu Còi (vehicle horns) refers to the use of vehicle horns, which is regulated in certain areas like Khu Đông Dân Cư (densely populated areas) to minimize noise pollution and ensure a peaceful environment for residents, especially during nighttime.\",\n            \"score\": 80\n        },\n        {\n            \"description\": \"The regulation of Tín Hiệu Còi in densely populated areas highlights the community's efforts to balance safety measures with quality of life considerations, emphasizing the importance of adhering to traffic regulations for the well-being of both drivers and residents.\",\n            \"score\": 70\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "6a590880b5788d6327c6a7a8c2552290": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Tín hiệu còi (vehicle horns) are used by drivers as a means of communication on the road to warn other traffic participants of their presence or to alert them of potential dangers. Their usage is regulated to ensure they serve their purpose without causing disturbances, especially in densely populated areas.\",\n            \"score\": 75\n        },\n        {\n            \"description\": \"The use of Tín hiệu còi is part of the broader traffic safety measures in Việt Nam, emphasizing the importance of technological aids in enhancing road safety. Regulations specify when and how these signals should be used to prevent unnecessary noise pollution and ensure they are effective in preventing accidents.\",\n            \"score\": 65\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "28561903ec4ff53f4bb923d2b6987ae0": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"Tín hiệu còi là một loại tín hiệu âm thanh được sử dụng bởi các phương tiện giao thông để cảnh báo hoặc thông báo cho người tham gia giao thông khác về sự hiện diện hoặc ý định của mình.\", \"score\": 80},\n        {\"description\": \"Trong bối cảnh giao thông đường bộ, tín hiệu còi có thể được sử dụng để yêu cầu nhường đường, cảnh báo nguy hiểm, hoặc trong các tình huống khẩn cấp.\", \"score\": 70},\n        {\"description\": \"Việc sử dụng tín hiệu còi phải tuân theo quy định của pháp luật về giao thông đường bộ, bao gồm cả thời điểm và cách thức sử dụng, để tránh gây hiểu nhầm hoặc phiền toái cho người khác.\", \"score\": 60}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "80ee13c03d30a09eb25a2cb58e3a92a8": {
+    "return": "# Tín Hiệu Còi (Vehicle Horns): Definition and Usage  \n\nTín hiệu còi là một loại tín hiệu âm thanh được sử dụng bởi các phương tiện giao thông để cảnh báo hoặc thông báo cho người tham gia giao thông khác về sự hiện diện hoặc ý định của mình.  \n\n## Mục Đích và Cách Sử Dụng  \n- **Cảnh báo nguy hiểm**: Tín hiệu còi thường được sử dụng để cảnh báo các tình huống nguy hiểm tiềm ẩn trên đường.  \n- **Yêu cầu nhường đường**: Trong một số trường hợp, tài xế có thể sử dụng còi để yêu cầu phương tiện khác nhường đường.  \n- **Tình huống khẩn cấp**: Việc sử dụng còi cũng phổ biến trong các trường hợp khẩn cấp để thu hút sự chú ý.  \n\n## Quy Định và Hạn Chế  \n- **Khu vực đông dân cư**: Việc sử dụng tín hiệu còi bị hạn chế ở những nơi như khu đông dân cư để giảm thiểu ô nhiễm tiếng ồn, đặc biệt vào ban đêm.  \n- **Tuân thủ luật giao thông**: Người tham gia giao thông phải tuân theo các quy định về thời điểm và cách thức sử dụng còi để tránh gây hiểu nhầm hoặc phiền toái.  \n\n## Cân Bằng Giữa An Toàn và Chất Lượng Cuộc Sống  \nViệc quản lý tín hiệu còi phản ánh nỗ lực của cộng đồng trong việc đảm bảo an toàn giao thông đồng thời duy trì môi trường sống yên tĩnh. Các quy định này nhấn mạnh tầm quan trọng của việc tuân thủ luật giao thông vì lợi ích chung của cả người lái xe và người dân sinh sống trong khu vực.",
+    "model": "deepseek-chat"
+  },
+  "a6cc7a5ca1c0d9fb044924b54d672bdf": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Đèn cảnh báo màu vàng (yellow warning lights) are used by drivers during road work to warn other traffic participants, enhancing road safety in work zones.\",\n            \"score\": 70\n        },\n        {\n            \"description\": \"In densely populated areas (Khu Đông Dân Cư), specific traffic rules regarding lighting and horn usage are applied to minimize disturbances and ensure safety.\",\n            \"score\": 60\n        },\n        {\n            \"description\": \"Priority vehicles (XE ƯU TIÊN), such as ambulances and fire trucks, use special lights to signal their precedence in traffic, especially during emergencies.\",\n            \"score\": 80\n        },\n        {\n            \"description\": \"Traffic signals (Tín Hiệu Đèn Giao Thông) and temporary signs (Biển Báo Hiệu Tạm Thời) guide road users, with compliance mandatory to ensure safety and order.\",\n            \"score\": 90\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "19df7fb98320bd7bfe2b19857a9de39a": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Đèn tín hiệu giao thông đường bộ (traffic light signals) are used to regulate the movement of road users, including pedestrians and vehicles, by indicating when it is safe to proceed, caution, or stop. This is crucial for maintaining order and preventing accidents on the road.\",\n            \"score\": 80\n        },\n        {\n            \"description\": \"Người điều khiển phương tiện (vehicle operators) are required to follow the signals of đèn tín hiệu giao thông to ensure safety and compliance with traffic laws. This includes stopping at red lights, proceeding with caution at yellow lights, and moving forward at green lights.\",\n            \"score\": 75\n        },\n        {\n            \"description\": \"Pedestrians must base their road-crossing actions on đèn tín hiệu giao thông, with priority given during green lights. This interaction underscores the importance of traffic signals in safeguarding pedestrian safety and facilitating smooth traffic flow.\",\n            \"score\": 70\n        },\n        {\n            \"description\": \"In special situations such as construction or incidents, temporary traffic signs (BIỂN BÁO HIỆU TẠM THỜI) may be used to guide traffic, overriding usual signals. Their instructions must be followed to maintain order and safety on the roads.\",\n            \"score\": 65\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "48624c93cc09c75e8a7b17687113a90b": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Đèn được sử dụng để đảm bảo an toàn giao thông trong các khu vực đông dân cư (KHU VỰC ĐÔNG DÂN CƯ) và trên đường bộ, đặc biệt là trong điều kiện thiếu ánh sáng hoặc ban đêm, theo quy định của ĐIỀU 12 về giới hạn tốc độ và khoảng cách an toàn giữa các phương tiện.\",\n            \"score\": 80\n        },\n        {\n            \"description\": \"Hệ Thống Chiếu Sáng (the lighting system) là công cụ quan trọng để đảm bảo tầm nhìn và an toàn cho người tham gia giao thông trong Khu Đông Dân Cư (Khu Đông Dân Cư), đặc biệt là vào ban đêm hoặc trong điều kiện thời tiết xấu.\",\n            \"score\": 70\n        },\n        {\n            \"description\": \"Việc sử dụng đèn trên phương tiện giao thông phải tuân thủ các quy định cụ thể, bao gồm cả việc sử dụng đèn pha và đèn cốt trong các tình huống khác nhau để tránh gây chói mắt cho người điều khiển phương tiện khác.\",\n            \"score\": 60\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "ea69b1084a3113fe0cb5b07abcf8406a": {
+    "return": "# The Role and Usage of Traffic Lights in Road Safety  \n\n## **Primary Functions of Traffic Lights**  \nTraffic lights (Đèn tín hiệu giao thông) are essential for regulating the movement of vehicles and pedestrians, ensuring safety and order on roads. They provide clear signals—**red (stop), yellow (caution), and green (proceed)**—to guide road users and prevent accidents. Vehicle operators **must** comply with these signals to avoid violations and maintain traffic flow.  \n\n## **Special Applications**  \n- **Priority Vehicles (XE ƯU TIÊN):** Emergency vehicles like ambulances and fire trucks use special lights to signal their right of way, overriding standard traffic signals during emergencies.  \n- **Temporary Signs & Warning Lights:** In construction zones or hazardous areas, **yellow warning lights** and temporary signs (Biển Báo Hiệu Tạm Thời) may replace or supplement regular signals to direct traffic safely.  \n- **Densely Populated Areas (Khu Đông Dân Cư):** Traffic lights and lighting systems are crucial in urban zones to enhance visibility at night or in poor weather, aligning with speed and distance regulations (Điều 12).  \n\n## **Pedestrian and Vehicle Compliance**  \nPedestrians **must** follow traffic light signals (e.g., crossing only on green) to ensure their safety, while drivers **shall** adhere to light changes and use proper headlights (e.g., low beams to avoid blinding others).  \n\n### **Key Takeaways**  \nTraffic lights serve as a universal control mechanism, with strict compliance required from all road users. Their usage extends beyond standard intersections, adapting to emergencies, construction, and high-density areas to uphold safety and efficiency.",
+    "model": "deepseek-chat"
+  },
+  "6ddf6645e976d6e90a1cf53252c7cb50": {
+    "return": "{\n    \"points\": [\n        {\"description\": \"The input data tables do not contain specific information about traffic light rules (đèn giao thông).\", \"score\": 0}\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "806b262879e62f32bf33c219132588a9": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Đèn giao thông có ba màu cơ bản: đỏ, vàng, và xanh. Màu đỏ yêu cầu dừng lại, màu vàng báo hiệu chuẩn bị dừng hoặc đi tiếp tùy vào tình huống, và màu xanh cho phép đi.\",\n            \"score\": 80\n        },\n        {\n            \"description\": \"Người tham gia giao thông phải tuân theo tín hiệu đèn giao thông, bao gồm cả người đi bộ và người điều khiển phương tiện.\",\n            \"score\": 90\n        },\n        {\n            \"description\": \"Khi đèn vàng bật sáng, người điều khiển phương tiện phải giảm tốc độ và dừng lại trước vạch dừng, trừ khi đã đi quá vạch dừng thì có thể tiếp tục đi.\",\n            \"score\": 70\n        },\n        {\n            \"description\": \"Đèn xanh cho phép đi nhưng người điều khiển phương tiện vẫn phải quan sát và nhường đường cho người đi bộ đang qua đường tại nơi có vạch đi bộ.\",\n            \"score\": 60\n        },\n        {\n            \"description\": \"Trong trường hợp đèn giao thông không hoạt động hoặc có hiệu lệnh của người điều khiển giao thông, người tham gia giao thông phải tuân theo hiệu lệnh của người điều khiển giao thông.\",\n            \"score\": 50\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "a4421d8d1a23ab38eaf8bb8acb8f202d": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Đèn giao thông (traffic lights) quy định các tín hiệu mà người tham gia giao thông phải tuân theo, bao gồm đỏ (dừng lại), vàng (chuẩn bị dừng hoặc đi nếu đã vượt qua vạch dừng), và xanh (được phép đi).\",\n            \"score\": 80\n        },\n        {\n            \"description\": \"Người điều khiển phương tiện phải dừng lại trước vạch dừng khi đèn tín hiệu chuyển sang màu đỏ hoặc vàng, trừ trường hợp đã vượt qua vạch dừng trước khi đèn chuyển sang màu vàng.\",\n            \"score\": 70\n        },\n        {\n            \"description\": \"Khi đèn tín hiệu màu xanh, người điều khiển phương tiện được phép đi nhưng phải quan sát và nhường đường cho người đi bộ đang qua đường tại nơi có vạch đi bộ qua đường.\",\n            \"score\": 60\n        },\n        {\n            \"description\": \"Đèn tín hiệu giao thông có thể kết hợp với các biển báo hoặc vạch kẻ đường để quy định chi tiết hơn về việc đi lại, rẽ trái/phải, hoặc các hướng đi cụ thể.\",\n            \"score\": 50\n        },\n        {\n            \"description\": \"Trong trường hợp đèn tín hiệu giao thông không hoạt động hoặc có hiệu lệnh của người điều khiển giao thông, người tham gia giao thông phải tuân theo hiệu lệnh của người điều khiển giao thông hoặc các quy tắc giao thông khác.\",\n            \"score\": 40\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "b9dff96e0a129d0736b00fb4734550a8": {
+    "return": "# Quy Tắc Đèn Giao Thông  \n\n## Tín Hiệu Cơ Bản  \nĐèn giao thông có ba màu cơ bản với các quy định rõ ràng:  \n- **Đèn đỏ**: Yêu cầu người tham gia giao thông (bao gồm cả người đi bộ và người điều khiển phương tiện) phải **dừng lại** trước vạch dừng.  \n- **Đèn vàng**: Báo hiệu chuẩn bị dừng. Người điều khiển phương tiện phải **giảm tốc độ và dừng lại** trước vạch dừng, trừ khi đã vượt qua vạch dừng trước khi đèn chuyển sang vàng thì có thể tiếp tục đi.  \n- **Đèn xanh**: Cho phép đi, nhưng người điều khiển phương tiện vẫn phải **quan sát và nhường đường** cho người đi bộ đang qua đường tại nơi có vạch đi bộ.  \n\n## Quy Tắc Bổ Sung  \n- Khi đèn giao thông **không hoạt động** hoặc có người điều khiển giao thông, người tham gia giao thông **phải tuân theo hiệu lệnh của người điều khiển** hoặc các quy tắc giao thông khác.  \n- Đèn giao thông có thể kết hợp với **biển báo hoặc vạch kẻ đường** để quy định chi tiết hơn về hướng đi, rẽ trái/phải hoặc các tình huống cụ thể.  \n\n## Lưu Ý  \n- **Người đi bộ** cũng phải tuân thủ tín hiệu đèn giao thông, đặc biệt khi qua đường tại khu vực có vạch đi bộ.  \n- Khi đèn xanh bật, người điều khiển phương tiện vẫn phải **ưu tiên nhường đường** cho người đi bộ đang qua đường.  \n\nNhững quy tắc này nhằm đảm bảo an toàn và trật tự giao thông, giảm thiểu nguy cơ tai nạn.",
+    "model": "deepseek-chat"
+  },
+  "714cc3037779f46c1bc46662a43fce53": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Tín Hiệu Còi (vehicle horns) is restricted in Khu Đông Dân Cư (densely populated areas), especially during nighttime, to minimize noise pollution and ensure a peaceful environment for residents.\",\n            \"score\": 80\n        },\n        {\n            \"description\": \"The use of Tín Hiệu Còi is regulated to ensure safety and minimize disturbance in residential areas, highlighting the community's efforts to balance safety measures with quality of life considerations.\",\n            \"score\": 70\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "9bc2e0ccc20e0d5f65f8a5ad998043f1": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"Tín hiệu còi (vehicle horns) are used to enhance road safety by alerting other road users of a vehicle's presence or to warn of potential dangers. Their usage is regulated to ensure they serve their purpose without causing disturbances, especially in densely populated areas.\",\n            \"score\": 75\n        },\n        {\n            \"description\": \"In densely populated areas (Khu Đông Dân Cư), specific traffic rules regarding the use of tín hiệu còi are in place to minimize disturbances and ensure safety in areas with high pedestrian and vehicle traffic.\",\n            \"score\": 65\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "44db94ad2e89d5cbca7da9c3fc94af01": {
+    "return": "{\n    \"points\": [\n        {\n            \"description\": \"The use of 'tín hiệu còi' (horn signals) is regulated to ensure traffic safety and order. It is primarily used to warn other road users of potential dangers or to signal the intention to overtake, especially in situations where visibility is limited.\",\n            \"score\": 70\n        },\n        {\n            \"description\": \"In specific contexts such as 'ĐƯỜNG CAO TỐC' (high-speed roads) and 'Hầm Đường Bộ' (road tunnels), the use of horn signals may be restricted or prohibited to prevent noise pollution and ensure the safety of all road users.\",\n            \"score\": 60\n        },\n        {\n            \"description\": \"The regulations regarding the use of horn signals are part of broader traffic laws and safety measures enforced by entities like the Traffic Police ('Cảnh sát giao thông') and are designed to minimize accidents and disruptions on the road.\",\n            \"score\": 50\n        }\n    ]\n}",
+    "model": "deepseek-chat"
+  },
+  "6702172aa66c7667efcd7e8281b577e0": {
+    "return": "# Regulations on the Use of Vehicle Horns (Tín Hiệu Còi)  \n\n## Primary Purpose and General Usage  \nVehicle horns (tín hiệu còi) are primarily used to **enhance road safety** by alerting other road users of a vehicle's presence or warning of potential dangers. They serve as a critical tool in situations where visibility is limited, such as when overtaking or navigating hazardous conditions.  \n\n## Restrictions in Densely Populated Areas  \nIn **Khu Đông Dân Cư (densely populated areas)**, the use of horns is **strictly regulated**, particularly during nighttime, to **minimize noise pollution** and maintain a peaceful environment for residents. Authorities enforce these rules to balance safety needs with quality-of-life considerations.  \n\n## Special Zones with Additional Restrictions  \nCertain areas, such as **high-speed roads (ĐƯỜNG CAO TỐC)** and **road tunnels (Hầm Đường Bộ)**, may impose **further restrictions or prohibitions** on horn usage to prevent excessive noise and ensure safe driving conditions.  \n\n## Enforcement and Legal Framework  \nThese regulations are part of broader **traffic laws** enforced by authorities like the **Traffic Police (Cảnh sát giao thông)**. The rules aim to **reduce accidents and disturbances** while maintaining an orderly traffic system.  \n\nIn summary, while tín hiệu còi are essential for safety, their use is carefully controlled to prevent unnecessary noise, especially in residential and high-traffic zones.",
+    "model": "deepseek-chat"
+  }
+}

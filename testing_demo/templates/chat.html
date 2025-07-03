@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot - An toàn giao thông</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .chat-container { 
+            scroll-behavior: smooth; 
+            max-height: 70vh; 
+            overflow-y: auto; 
+        }
+        .message { 
+            max-width: 70%; 
+            margin: 10px; 
+            padding: 10px; 
+            border-radius: 10px; 
+            word-wrap: break-word; 
+        }
+        .user { 
+            background-color: #3b82f6; 
+            color: white; 
+            margin-left: auto; 
+        }
+        .chatbot { 
+            background-color: #e5e7eb; 
+            color: black; 
+        }
+        .timestamp { 
+            font-size: 0.75rem; 
+            color: #6b7280; 
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-4 max-w-6xl">
+        <div class="grid grid-cols-2 gap-4">
+            <!-- Caption Section -->
+            <div class="bg-white rounded-lg shadow p-4">
+                <h2 class="text-xl font-bold mb-4 text-gray-800">🖼️ Mô tả hình ảnh</h2>
+                <form method="post" enctype="multipart/form-data" class="flex flex-col gap-2">
+                    <input type="file" name="caption_image" accept="image/*" class="p-2 border rounded">
+                    <button type="submit" name="action" value="caption" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">Tạo mô tả</button>
+                </form>
+                <div class="mt-4 p-4 bg-gray-50 rounded-lg">
+                    <!-- Display caption result here -->
+                    {% if caption_result %}
+                        <div class="font-medium">Ngữ cảnh hiện tại:</div>
+                        <div class="mt-2" id="currentContext">{{ caption_result }}</div>
+                        <button onclick="clearCaption()" class="mt-2 bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">
+                            Xóa ngữ cảnh
+                        </button>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Chatbot Section -->
+            <div>
+                <h2 class="text-xl font-bold mb-4 text-gray-800">🧠 Hỏi đáp về an toàn giao thông</h2>
+                <div class="chat-container bg-white rounded-lg shadow p-4 mb-4">
+                    {% for message in messages %}
+                        <div class="message {{ 'user' if message.sender == 'User' else 'chatbot' }}">
+                            <div class="font-semibold">{{ message.sender }}</div>
+                            {% if message.type == 'text' %}
+                                <div>{{ message.content|safe }}</div>
+                            {% elif message.type == 'combined' %}
+                                {% if message.text %}
+                                    <div>{{ message.text }}</div>
+                                {% endif %}
+                                {% if message.image %}
+                                    <img src="/static/{{ message.image }}" alt="Uploaded image" class="mt-2 rounded max-w-full h-auto">
+                                {% endif %}
+                            {% endif %}
+                            <div class="timestamp">{{ message.timestamp }}</div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <form method="post" enctype="multipart/form-data" class="flex flex-col gap-2" id="chatForm">
+                    <div class="flex gap-2">
+                        <input type="text" name="message" id="userQuestion" 
+                               placeholder="Nhập câu hỏi của bạn..." 
+                               class="flex-grow p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <input type="hidden" name="context" id="contextInput">
+                        <input type="file" name="chat_image" accept="image/*" class="p-2">
+                    </div>
+                    <div class="flex gap-2">
+                        <button type="submit" name="action" value="chat" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+                            Gửi câu hỏi
+                        </button>
+                        <form action="/clear" method="post">
+                            <button type="submit" class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600" onclick="return confirm('Xóa lịch sử chat?');">Xóa lịch sử</button>
+                        </form>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Auto-scroll to bottom of chat
+        const chatContainer = document.querySelector('.chat-container');
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+
+        function useCaptionAsQuery() {
+            const caption = document.querySelector('.mt-2').textContent;
+            const chatInput = document.querySelector('input[name="message"]');
+            chatInput.value = caption;
+            chatInput.focus();
+        }
+
+        document.getElementById('chatForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const context = document.getElementById('currentContext')?.textContent || '';
+            const userQuestion = document.getElementById('userQuestion').value;
+            
+            if (userQuestion.trim() === '') {
+                alert('Vui lòng nhập câu hỏi');
+                return;
+            }
+            
+            // Combine context and question
+            document.getElementById('contextInput').value = context;
+            
+            // Submit form
+            this.submit();
+        });
+
+        async function clearCaption() {
+            if (confirm('Bạn có chắc muốn xóa ngữ cảnh hiện tại?')) {
+                const response = await fetch('/clear_caption', {
+                    method: 'POST'
+                });
+                if (response.ok) {
+                    location.reload();
+                }
+            }
+        }
+    </script>
+</body>
+</html>
